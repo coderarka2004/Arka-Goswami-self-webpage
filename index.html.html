@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Arkas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            color: #000; /* Darker text color */
+            font-weight: bold; /* Make all text bold */
+            text-align: center; /* Center-align all text */
+        }
+        .projects .project {
+            color: #000; /* Ensuring text in projects section is black */
+            font-weight: bold; /* Ensuring text in projects section is bold */
+            margin: 0 auto; /* Center-align the div elements */
+            max-width: 800px; /* Set a maximum width for the project divs */
+            text-align: left; /* Align text to left within the project divs for readability */
+        }
+        header, aside, main, footer {
+            text-align: center; /* Center-align the text in header, aside, main, and footer */
+        }
+        .section {
+            margin: 0 auto; /* Center-align the section elements */
+            max-width: 800px; /* Set a maximum width for the section elements */
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #000;
+            font-size: 24px;
+        }
+        .social-icons a:hover {
+            color: #0077b5; /* LinkedIn color for LinkedIn icon */
+        }
+        .fa-facebook:hover {
+            color: #3b5998; /* Facebook color */
+        }
+        .fa-whatsapp:hover {
+            color: #25d366; /* WhatsApp color */
+        }
+        .sidebar {
+            background-color: #000000;
+            padding: 10px;
+            text-align: left;
+        }
+        .sidebar h2 {
+            margin-top: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        .wavy-btn {
+            background: linear-gradient(45deg, #f06, #f90, #ff0, #0f0, #0ff, #00f, #90f, #f0f);
+            background-size: 200%;
+            color: #000000;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.4s;
+        }
+        .wavy-btn:hover {
+            background-position: right;
+        }
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+            .profile-picture img {
+                width: 150px;
+                height: 150px;
+            }
+            .sidebar {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside class="sidebar">
+        <h2>Certificates</h2>
+        <ul>
+            <li><a href="https://drive.google.com/drive/folders/1gFqaRAn0fSGYVFSg2N7_YcAh-j27dJW8?usp=drive_link">Certificates</a></li>
+        </ul>
+    </aside>
+    
+    <main>
+        <section id="home" class="section">
+            <h1>Welcome to My Portfolio</h1>
+            <div class="profile-picture">
+                <img id="profile-img" src="D:\Users\ARKA\Desktop\pan card pics\Wbjee main pic.jpg" alt="Arka Goswami">
+            </div>
+        </section>
+        
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                Hello, my name is Arka Goswami, and I am currently pursuing a Bachelor of Technology (BTech) degree in Electrical Engineering. Throughout my academic journey, I have developed a robust foundation in both theoretical and practical aspects of electrical engineering, including circuit analysis, power systems, control systems, and electronics.
+            </p>
+            <p>
+                In addition to my core electrical engineering studies, I have cultivated strong proficiency in coding. I am well-versed in several programming languages, including Python, C, and Matlab. Furthermore, I have hands-on experience with SQL and HTML, which has enabled me to work on diverse projects that integrate software and hardware solutions.
+            </p>
+            <p>
+                I am also proficient in TinkerCAD and Arduino, which I have used extensively for prototyping and developing various electronic projects. My interest in technology extends to the field of 3D printing, where I enjoy exploring innovative applications and solutions. This hobby complements my engineering skills and allows me to engage in creative problem-solving and prototyping.
+            </p>
+            <p>
+                With my comprehensive skill set, I am passionate about leveraging my technical expertise to contribute to advancements in technology and engineering. I am enthusiastic about the opportunities to collaborate with professionals in the field and apply my knowledge to real-world applications.
+            </p>
+            <p>
+                Thank you for taking the time to learn about me.
+            </p>
+        </section>
+        
+        <section id="portfolio" class="section">
+            <h2>My Work</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Smart Home Automation System</h3>
+                    <p><strong>Description:</strong> Developed a home automation system using Arduino to control lights, fans, and other appliances remotely.</p>
+                    <p><strong>Technologies Used:</strong> Arduino, C programming, HTML, SQL</p>
+                    <p><strong>Skills Demonstrated:</strong> Circuit design, microcontroller programming, web-based control interfaces</p>
+                </div>
+                <div class="project">
+                    <h3>Power Grid Monitoring System</h3>
+                    <p><strong>Description:</strong> Designed and implemented a system to monitor and analyze the performance of a power grid.</p>
+                    <p><strong>Technologies Used:</strong> Matlab, Python</p>
+                    <p><strong>Skills Demonstrated:</strong> Data analysis, signal processing, real-time monitoring</p>
+                </div>
+                <div class="project">
+                    <h3>3D Printed Robotic Arm</h3>
+                    <p><strong>Description:</strong> Created a robotic arm using 3D printing technology and programmed it for basic pick-and-place tasks.</p>
+                    <p><strong>Technologies Used:</strong> TinkerCAD, Arduino, Python</p>
+                    <p><strong>Skills Demonstrated:</strong> 3D design, prototyping, microcontroller programming</p>
+                </div>
+                <div class="project">
+                    <h3>Interactive LED Display</h3>
+                    <p><strong>Description:</strong> Built an interactive LED display board that responds to user inputs.</p>
+                    <p><strong>Technologies Used:</strong> Arduino, C programming, HTML for the control interface</p>
+                    <p><strong>Skills Demonstrated:</strong> Electronics, user interface design, programming</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="wavy-btn">Send</button>
+            </form>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/arka-goswami-b12b0b286/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100079986446142" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://wa.me/6290706150" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.youtube.com/channel/UC6sYTQK9qF9sR9-zHTjjWkw" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.amazon.in/TRAIN-19-Arka-Goswami-ebook/dp/B0CH8Z4YW7/ref=sr_1_1?crid=4CQUO7I766QC&dib=eyJ2IjoiMSJ9.sz7kPwvoBAR0PfMANdwzf8Y9IuUj8xkzINH5gH1pgDQ.2Kl-K8LKXSUviBTgjjFVbraFAdx7lA1rxiXcKO2Fqzk&dib_tag=se&keywords=arka+goswami&qid=1717989331&sprefix=arka+goswami%2Caps%2C221&sr=8-1" target="_blank"><i class="fab fa-amazon"></i></a>
+                <a href="https://www.blogger.com/blog/posts/5172323640708398485" target="_blank"><i class="fab fa-blogger"></i></a>
+                <a href="https://github.com/coderarka2004" target="_blank"><i class="fab fa-github"></i></a>
+
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 My Portfolio @ Arka Goswami and is developed by Arka Goswami</p>
+    </footer>
+</body>
+</html>
